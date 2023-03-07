@@ -15,16 +15,16 @@ GET http://localhost:3000/todos/?category=WORK&status=DONE
 ###
 GET http://localhost:3000/todos/?category=HOME
 ###
-GET http://localhost:3000/todos/5/
+GET http://localhost:3000/todos/2/
 ###
 
-GET http://localhost:3000/agenda/?date=2021-12-12
+GET http://localhost:3000/agenda/?date=2020-09-22
 ####
 POST http://localhost:3000/todos/
 Content-Type: application/json
 
 {
-  "id": 6,
+  "id": 5,
   "todo": "Finalize event theme",
   "priority": "LOW",
   "status": "TO DO",
@@ -33,7 +33,7 @@ Content-Type: application/json
 }
 ###
 
-PUT http://localhost:3000/todos/5/
+PUT http://localhost:3000/todos/2/
 Content-Type: application/json
 
 {
