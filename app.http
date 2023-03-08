@@ -15,7 +15,7 @@ GET http://localhost:3000/todos/?category=WORK&status=DONE
 ###
 GET http://localhost:3000/todos/?category=HOME
 ###
-GET http://localhost:3000/todos/2/
+GET http://localhost:3000/todos/1/
 ###
 
 GET http://localhost:3000/agenda/?date=2020-09-22
@@ -65,9 +65,9 @@ Content-Type: application/json
   "category": "LEARNING"
 }
 ###
-PUT http://localhost:3000/todos/4/
+PUT http://localhost:3000/todos/1/
 Content-Type: application/json
 
 {
-  "dueDate": "2021-01-12"
+  "dueDate": "2021-03-16"
 }
